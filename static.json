@@ -1,0 +1,23 @@
+{
+  "https_only": true,
+  "headers": {
+    "/": {
+      "Cache-Control": "no-store, no-cache",
+      "Referrer-Policy": "no-referrer",
+      "X-Frame-Options": "DENY",
+      "Content-Security-Policy": "default-src 'none' ; script-src 'self' https://cdnjs.cloudflare.com/; style-src 'self' ; img-src 'none' ; frame-ancestors 'none' ; form-action 'self' http://10.30.80.174; reflected-xss block; referrer no-referrer; report-uri https://rticgms.report-uri.com/r/d/csp/enforce; require-sri-for script;"
+    },
+    "/**": {
+      "Cache-Control": "no-store, no-cache",
+      "Referrer-Policy": "no-referrer",
+      "X-Frame-Options": "DENY",
+      "Content-Security-Policy": "default-src 'none' ; script-src 'self' https://cdnjs.cloudflare.com/; style-src 'self' ; img-src 'none' ; frame-ancestors 'none' ; form-action 'self' http://10.30.80.174; reflected-xss block; referrer no-referrer; report-uri https://rticgms.report-uri.com/r/d/csp/enforce; require-sri-for script;"
+    },
+    "**": {
+      "Cache-Control": "no-store, no-cache",
+      "Referrer-Policy": "no-referrer",
+      "X-Frame-Options": "DENY",
+      "Content-Security-Policy": "default-src 'none' ; script-src 'self' https://cdnjs.cloudflare.com/; style-src 'self' ; img-src 'none' ; frame-ancestors 'none' ; form-action 'self' http://10.30.80.174; reflected-xss block; referrer no-referrer; report-uri https://rticgms.report-uri.com/r/d/csp/enforce; require-sri-for script;"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RTIC AUTOLOGIN</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css" integrity="sha256-B4Yp1GAZ1Vt+RwC1IC8r1607PRuFmbVpfHEfoYPURzo=" crossorigin="anonymous">
+</head>
+<body>
+
+  <form action="http://10.30.80.174/rtic17/login.php" method="post" name="loginform">
+    <input type="hidden" name="username" id="username">
+    <input type="hidden" name="password" id="password">
+    <input type="hidden" name="action" value="postback">
+    <input type="submit" value="Login" id="loginButton" />
+  </form>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs/0.5.3/fingerprint.min.js" integrity="sha256-y8nywjgDPAuLRL+vfndZWrCnxCXQ8Ext41Q2OA6rwEc=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
+  <script src="index.js" integrity="sha256-/3zekRBFJ6hvy7uYvVk4FlB95s+g2gxz+kHLsLUSv+c=" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
