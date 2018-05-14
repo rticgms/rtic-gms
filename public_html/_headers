@@ -3,7 +3,7 @@
     Referrer-Policy: no-referrer
     X-Frame-Options: DENY
     X-Content-Type-Options: nosniff
-    Content-Security-Policy: default-src 'none' ; base-uri 'self' ; script-src 'self' https://cdnjs.cloudflare.com/; style-src 'self' ; img-src 'none' ; frame-ancestors 'none' ; form-action 'self' http://10.30.80.174; require-sri-for script; report-uri https://rticgms.report-uri.com/r/d/csp/enforce;
+    Content-Security-Policy: default-src 'none' ; base-uri 'self' ; script-src 'self' https://cdnjs.cloudflare.com/; style-src 'self' ; img-src 'none' ; frame-ancestors 'none' ; form-action 'self' http://10.30.80.174; require-sri-for script; connect-src 'self' https://rtic-gms.report-uri.com; report-uri https://rticgms.report-uri.com/r/d/csp/enforce;
     Strict-Transport-Security: max-age=15768000; includeSubDomains
     Public-Key-Pins: pin-sha256="68jXvKmNlQNlm8LfJWLu+iDsavznNQdAEssogdLrfAo="; pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="; pin-sha256="Vjs8r4z+80wjNcr1YKepWQboSIRi63WsWXhIMN+eWys="; max-age=86400; includeSubDomains; report-uri="https://rticgms.report-uri.com/r/d/hpkp/enforce"
     X-XSS-Protection: 1; mode=block
