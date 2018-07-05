@@ -11,8 +11,7 @@ if (!username || username === "") {
 
 function n(event) {
     event.preventDefault();
-    var fp = new Fingerprint().get();
-    var password = CryptoJS.AES.decrypt(key, username +''+ fp).toString(CryptoJS.enc.Utf8);
+    var password = CryptoJS.AES.decrypt(key, username).toString(CryptoJS.enc.Utf8);
     document.getElementById("username").value = username.trim();
     document.getElementById("password").value = password.trim();
     var form = document.getElementsByName('loginform')[0];
